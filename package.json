@@ -1,0 +1,39 @@
+{
+  "name": "@owdproject/react-kit-react95",
+  "version": "4.0.0-alpha.3",
+  "description": "React95 (@react95/core) integration kit for Open Web Desktop React themes: theme bootstrap, window chrome and OWD bindings.",
+  "license": "MIT",
+  "author": {
+    "name": "Diego Villa",
+    "url": "https://github.com/dxlliv"
+  },
+  "type": "module",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./styles.css": "./src/styles.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@react95/core": "^10.0.6",
+    "@react95/icons": "^2.8.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "alpha",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
